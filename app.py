@@ -1,4 +1,4 @@
-from flask import Flask, url_for, redirect, request ,render_template
+from flask import Flask, url_for, redirect, request ,render_template , SQLAlchemy
 
  #inizializza l'app Flask
 app = Flask(__name__)
